@@ -6,7 +6,7 @@ This JavaScript code creates an interactive chatbot interface that leverages Ope
 ## Working:
 ### Initialize and Load Data:
 
-####loadDataFromLocalstorage: This function loads the chat history and theme preferences from local storage when the page loads. It applies the saved theme (light or dark mode) and displays previous chat conversations or a default welcome message.
+#### loadDataFromLocalstorage: This function loads the chat history and theme preferences from local storage when the page loads. It applies the saved theme (light or dark mode) and displays previous chat conversations or a default welcome message.
 Chat Elements Creation:
 
 #### createChatElement: 
@@ -25,22 +25,22 @@ Show Typing Animation:
 #### showTypingAnimation: 
 This function displays a "typing" animation to simulate the chatbot thinking. It then calls getChatResponse to fetch and display the response.
 
-###Handle Outgoing Chat:
+### Handle Outgoing Chat:
 
-####handleOutgoingChat:
+#### handleOutgoingChat:
 This function processes the user's input message, creates an outgoing chat element, and triggers the chatbot's response simulation. It clears the input field and adjusts its height dynamically.
 Delete Chat History:
 
-####Delete Button: 
+#### Delete Button: 
 Clicking the delete button clears the chat history from local storage after confirming the action with the user.
 Theme Toggle:
 
-####Theme Button: 
+#### Theme Button: 
 Clicking the theme button toggles between light and dark modes. The current theme preference is saved to local storage.
 
-###Input Handling:
+### Input Handling:
 
-####Adjusting Input Height: 
+#### Adjusting Input Height: 
 The height of the chat input field adjusts automatically based on the content.
-####Enter Key Handling: 
+#### Enter Key Handling: 
 Pressing Enter without holding Shift sends the message if the window width is greater than 800 pixels.
